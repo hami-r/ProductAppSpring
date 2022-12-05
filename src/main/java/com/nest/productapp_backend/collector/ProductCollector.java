@@ -15,4 +15,9 @@ public class ProductCollector {
     public String addpage(){
         return "Welcome to add page";
     }
+
+    @PostMapping("/search")
+    public String searchpage(){
+        return "Welcome to search page";
+    }
 }
