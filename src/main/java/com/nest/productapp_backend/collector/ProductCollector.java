@@ -10,4 +10,9 @@ public class ProductCollector {
     public String homepage(){
         return "Welcome to my website";
     }
+
+    @PostMapping("/add")
+    public String addpage(){
+        return "Welcome to add page";
+    }
 }
