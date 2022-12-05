@@ -20,4 +20,9 @@ public class ProductCollector {
     public String searchpage(){
         return "Welcome to search page";
     }
+
+    @PostMapping("/edit")
+    public String editpage(){
+        return "Welcome to edit page";
+    }
 }
