@@ -25,4 +25,9 @@ public class ProductCollector {
     public String editpage(){
         return "Welcome to edit page";
     }
+
+    @PostMapping("/delete")
+    public String deletepage(){
+        return "Welcome to delete page";
+    }
 }
