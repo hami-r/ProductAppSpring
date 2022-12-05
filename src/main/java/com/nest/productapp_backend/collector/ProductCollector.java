@@ -31,4 +31,7 @@ public class ProductCollector {
     public String deletepage(){
         return "Welcome to delete page";
     }
+
+    @GetMapping("/view")
+    public String viewpage() { return "Welcome to view page"; }
 }
